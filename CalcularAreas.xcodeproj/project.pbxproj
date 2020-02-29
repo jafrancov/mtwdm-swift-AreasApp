@@ -13,6 +13,9 @@
 		6A55BF122401B3C700063F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A55BF112401B3C700063F99 /* Assets.xcassets */; };
 		6A55BF152401B3C700063F99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A55BF142401B3C700063F99 /* Preview Assets.xcassets */; };
 		6A55BF182401B3C700063F99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A55BF162401B3C700063F99 /* LaunchScreen.storyboard */; };
+		6A55BF202401B76E00063F99 /* Triangulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A55BF1F2401B76E00063F99 /* Triangulo.swift */; };
+		6A55BF222401B93600063F99 /* Cuadrado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A55BF212401B93600063F99 /* Cuadrado.swift */; };
+		6A55BF242401B94B00063F99 /* Circulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A55BF232401B94B00063F99 /* Circulo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		6A55BF142401B3C700063F99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6A55BF172401B3C700063F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A55BF192401B3C700063F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A55BF1F2401B76E00063F99 /* Triangulo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangulo.swift; sourceTree = "<group>"; };
+		6A55BF212401B93600063F99 /* Cuadrado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuadrado.swift; sourceTree = "<group>"; };
+		6A55BF232401B94B00063F99 /* Circulo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circulo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				6A55BF0B2401B3C700063F99 /* AppDelegate.swift */,
 				6A55BF0D2401B3C700063F99 /* SceneDelegate.swift */,
 				6A55BF0F2401B3C700063F99 /* ContentView.swift */,
+				6A55BF212401B93600063F99 /* Cuadrado.swift */,
+				6A55BF232401B94B00063F99 /* Circulo.swift */,
 				6A55BF112401B3C700063F99 /* Assets.xcassets */,
 				6A55BF162401B3C700063F99 /* LaunchScreen.storyboard */,
 				6A55BF192401B3C700063F99 /* Info.plist */,
 				6A55BF132401B3C700063F99 /* Preview Content */,
+				6A55BF1F2401B76E00063F99 /* Triangulo.swift */,
 			);
 			path = CalcularAreas;
 			sourceTree = "<group>";
@@ -147,8 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A55BF0C2401B3C700063F99 /* AppDelegate.swift in Sources */,
+				6A55BF242401B94B00063F99 /* Circulo.swift in Sources */,
 				6A55BF0E2401B3C700063F99 /* SceneDelegate.swift in Sources */,
+				6A55BF222401B93600063F99 /* Cuadrado.swift in Sources */,
 				6A55BF102401B3C700063F99 /* ContentView.swift in Sources */,
+				6A55BF202401B76E00063F99 /* Triangulo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
